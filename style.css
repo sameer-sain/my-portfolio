@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+}
+
+header {
+    background: linear-gradient(135deg, #0d47a1, #1976d2);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.tagline {
+    font-size: 18px;
+}
+
+.subtag {
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+.hire-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: white;
+    color: #1976d2;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #0d47a1;
+}
+
+.skills span {
+    display: inline-block;
+    background: #bbdefb;
+    margin: 6px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.screenshots {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.screenshots img {
+    width: 180px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    background: #0d47a1;
+    color: white;
+    padding: 15px;
+}
